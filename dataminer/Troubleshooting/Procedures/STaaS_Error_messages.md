@@ -132,6 +132,8 @@ SLCloudStorage.txt|SLDataGateway|DataGateway.CloudStorage|ERR|0|114|Failed to re
 
 To resolve this issue:
 
-1. Remove the file `C:\ProgramData\Skyline Communications\DxMs Shared\Data\NodeId.txt`.
+1. Remove the file `C:\ProgramData\Skyline Communications\DataMiner Orchestrator\Data\NodeId.txt`.
 
-1. Restart the DMA.
+2. Remove the file `C:\ProgramData\Skyline Communications\DxMs Shared\Data\NodeId.txt`. (This is a legacy location)
+
+3. Restart the DMA.
